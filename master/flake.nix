@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-statistical_tests-master.flake = false;
+  inputs.src-statistical_tests-master.ref   = "refs/heads/master";
   inputs.src-statistical_tests-master.owner = "ayman-albaz";
-  inputs.src-statistical_tests-master.ref   = "master";
   inputs.src-statistical_tests-master.repo  = "statistical-tests";
   inputs.src-statistical_tests-master.type  = "github";
   
